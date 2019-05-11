@@ -1,0 +1,13 @@
+.login-form-container {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    border: 2px solid #f8f9fa;
+    background-color: #fff;
+}
+
+.login-form {
+    padding: 40px;
+}

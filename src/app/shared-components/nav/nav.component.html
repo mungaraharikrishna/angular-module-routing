@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark mb-3">
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+      <a class="nav-link" [routerLink]="['/dashboard']">Dashboard</a>
+    </li>
+    <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+      <a class="nav-link" [routerLink]="['/home']">Home</a>
+    </li>
+    <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+      <a class="nav-link" [routerLink]="['/home/about']">About</a>
+    </li>
+    <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+      <a class="nav-link" [routerLink]="['/home/contact']">Contact</a>
+    </li>
+    <!-- <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="javascript:void(0);" id="navbardrop" data-toggle="dropdown">
+        Layouts
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" href="" [routerLink]="['/layout/about']">About</a>
+        <a class="dropdown-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" href="" [routerLink]="['/layout/contact']">Contact</a>
+      </div>
+    </li> -->
+  </ul>
+  <div class="">
+      <a class="" style="color: #fcfcfc;" (click)="logout()">LogOut</a>
+  </div>
+</nav>
